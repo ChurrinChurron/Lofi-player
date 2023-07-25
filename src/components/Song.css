@@ -1,0 +1,80 @@
+.data__track {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.4em 0;
+}
+
+.list__song {
+
+    display: flex;
+    align-items: center;
+    gap: 2em 0;
+}
+
+.list__song img {
+
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.data__name h5 {
+
+    font-size: .940em;
+    margin-bottom: 0.3em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.data__name h6 {
+
+    font-size: .740em;
+    color: var(--white);
+    font-weight: 400;
+    opacity: .8;
+    cursor: pointer;
+}
+
+button {
+
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.like {
+
+    margin-right: 1.4em;
+    font-size: 1.350em;
+    color: var(--white);
+}
+
+.like.fa-solid{
+
+    color: var(--purple);
+}
+
+.fa-ellipsis-vertical {
+
+    color: var(--white);
+    font-size: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .like {
+
+        margin-right: 3.5em;
+        font-size: 1.4em;
+    }
+
+    .fa-ellipsis-vertical {
+
+        font-size: 1.430em;
+    }
+}

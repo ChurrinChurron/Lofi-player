@@ -1,0 +1,20 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --purple: #9747FF;
+  /* --purple-to-black:
+  --purple-to-black-2:   */
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+
+  font-family: "Inter", sans-serif;
+}

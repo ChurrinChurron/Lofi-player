@@ -1,0 +1,89 @@
+header {
+
+    width: 100%;
+    padding: 1em;
+    height: 22em;
+    background: url(../assets/lofi.webp) no-repeat;
+    background-size: cover;
+}
+
+#back {
+
+    border: none;
+    border-radius: 50%;
+    padding: .5em .7em .4em .7em;
+    font-size: 1.2em;
+    background: var(--purple);
+    color: var(--white);
+    cursor: pointer;
+}
+
+header > img {
+
+    display: none;
+}
+
+.header__listen {
+
+    display: none;
+}
+
+.artistData {
+
+    margin-top: 27vh;
+}
+
+.header__artist {
+
+    font-size: 3em;
+    color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    
+    header {
+
+        display: flex;
+        padding: 1em;
+        height: 25em;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 9.9%, rgba(0, 0, 0, 0.155) 25.52%, rgba(0, 0, 0, 0.27) 46.35%, rgba(0, 0, 0, 0.34) 67.19%, rgba(0, 0, 0, 0.447586) 85.94%, rgba(0, 0, 0, 0.5) 97.4%),
+                    linear-gradient(0deg, rgba(94, 13, 199, 0.66), rgba(94, 13, 199, 0.66));
+    }
+
+    #back {
+
+        margin: .4em 0 0 .4em;
+        align-self: flex-start;
+        background: var(--white);
+        color: var(--purple);
+    }
+
+    header > img {
+
+        display: block;
+        height: 21em;
+        margin: 1em 4.5em 0 3em;
+        border-radius: 3em;
+    }
+
+    .header__listen {
+
+        display: block;
+        margin-top: 1.3em;
+        font-size: 1.080em;
+        font-weight: 400;
+        color: var(--white);
+    }
+    
+    .artistData {
+    
+        margin-top: 5em;
+        align-self: center;
+    }
+
+    .header__artist {
+
+        font-size: 2.3em;
+    }
+    
+}
